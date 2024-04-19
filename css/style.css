@@ -155,13 +155,36 @@ a.skip{
 .home_title_text{
   font-size: 22px;
   grid-column: 5/end;
+
 }
 
+/* CLIENT TESTIMONIAL ARROWS */
+.left-button{
+  grid-column: 1;
+  position: relative;
+  right: -27px;
+  top: 150px;
+  font-size: 25px;
+}
+
+.right-button{
+  font-size: 25px;
+  top: 150px;
+  position: relative;
+  grid-column: 6;
+  left: 27px;
+}
 
 /* CLIENT TESTIMONIAL CARDS */
+
 .c_test_label{
-  grid-column: 2/end;
-  font-size:25px;
+  /* grid-column: 2/end;
+  font-size:25px; */
+  grid-column: 1 / end;
+  text-decoration: underline;
+  margin: 0px auto;
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 .card1{
@@ -177,8 +200,10 @@ a.skip{
   margin-top: 15px;
   margin-bottom: 25px;
   border: 2px solid black;
- 
 }
+
+
+
 
 .card1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -380,8 +405,9 @@ a.skip{
 }
 
 .contact_page_content{
+  display: grid;
   width: 80%;
-  height: 50%;
+  /* height: 50%; */
   background-color: whitesmoke;
   margin: 20px auto;
   border-radius: 7px;
@@ -409,7 +435,7 @@ a.skip{
   top:10px;
   display: block;
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .cont_container{
