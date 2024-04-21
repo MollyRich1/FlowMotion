@@ -388,7 +388,7 @@ a.skip{
 
 
 
-.fadeInText {
+/* .fadeInText { */
   /* position: absolute;
   top: 50%; 
   right: 50%;
@@ -412,7 +412,7 @@ a.skip{
   1px 25px 35px rgba(16,16,16,0.2),
   1px 30px 60px rgba(16,16,16,0.4); */
   
-}
+  /*  */
 
 
 
@@ -491,7 +491,7 @@ justify-content: center;
 
 
   /* TABLET VIEW */
-  @media only screen and (min-width: 600px) {}
+  @media screen and (min-width: 600px) {
 /* index */
 h1.main_title {
   font-size:80px;
@@ -539,12 +539,17 @@ h2.main_title {
 .viewport{
   font-size:19px;
 }
+}
 
 
   /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 /* index page */
+body{
+  background-image: url("../images/background2.jpeg");
+}
+
 
 /* home page */
 
@@ -616,7 +621,7 @@ h2.main_title {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 /* index page */
 
 h1.main_title {
@@ -689,7 +694,7 @@ h2.main_title{
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
 /* index page */
 

@@ -33,4 +33,13 @@ function openNav() {
 
   }
 
+
+
   const viewportWidth = window.innerWidth;
+
+  /* 
+  using the viewport width, if above certain threshold, change the style of grid-column
+  (of index 1 and 2) to whatever is good,
+ 
+
+  */
