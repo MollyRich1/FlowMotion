@@ -9,9 +9,10 @@ function openNav() {
 
   // client testimonial slideshows
 
-  console.log("test1");
+  // console.log("test1");
   window.addEventListener('resize', function(){
-    console.log("test");
+    showDivs(1);
+    console.log("test4");
   });
 
   let slideIndex = 1;
@@ -95,9 +96,7 @@ function openNav() {
   }
 
 
-  // window.addEventListener('resize', function(){
-  //   console.log("test");
-  // });
+  
 
 
 

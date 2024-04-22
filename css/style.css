@@ -180,7 +180,7 @@ a.skip{
   grid-column: 1;
   position: relative;
   right: -27px;
-  top: 150px;
+  top: 170px;
   font-size: 25px;
 }
 
@@ -445,7 +445,7 @@ display:grid;
 
 .contact_page_content{
   display: grid;
-  width: 80%;
+  width: 65%;
   /* height: 50%; */
   background-color: whitesmoke;
   margin: 20px auto;
