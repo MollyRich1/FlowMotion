@@ -483,6 +483,7 @@ display:grid;
   display: block;
   text-align: center;
   font-size: 14px;
+  padding: 10px;
 }
 
 .cont_container{
