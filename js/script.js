@@ -9,9 +9,12 @@ function openNav() {
 
   // client testimonial slideshows
 
-  window.addEventListener("resize", showDivs(1));
-  
-  var slideIndex = 1;
+  console.log("test1");
+  window.addEventListener('resize', function(){
+    console.log("test");
+  });
+
+  let slideIndex = 1;
   const vpWidth = window.innerWidth;
   showDivs(slideIndex);
   
@@ -24,11 +27,11 @@ function openNav() {
   }
   
   function showDivs(n) {
-    const vpWidth = window.innerWidth;
+    let vpWidth = window.innerWidth;
 
     if(vpWidth < 992){
-    var i;
-    var x = document.getElementsByClassName("slide");
+    let i;
+    let x = document.getElementsByClassName("slide");
    
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length}
@@ -40,8 +43,8 @@ function openNav() {
   }
 
   else{
-    var i;
-    var x = document.getElementsByClassName("slide");
+    let i;
+    let x = document.getElementsByClassName("slide");
    
     if (n > 3) {slideIndex = 1}
     if (n < 1) {slideIndex = 3}
@@ -92,7 +95,9 @@ function openNav() {
   }
 
 
-  // window.addEventListener("resize", showDivs(1));
+  // window.addEventListener('resize', function(){
+  //   console.log("test");
+  // });
 
 
 
