@@ -187,7 +187,7 @@ a.skip{
 .left-button{
   grid-column: 1;
   position: relative;
-  right: -27px;
+  /* right: -27px; */
   top: 170px;
   font-size: 25px;
 }
@@ -197,7 +197,7 @@ a.skip{
   top: -200px;
   position: relative;
   grid-column: 7;
-  left: -27px;
+  /* left: -27px; */
 }
 
 /* CLIENT TESTIMONIAL CARDS */
@@ -544,6 +544,23 @@ h2.main_title {
 .testimonial_grid{
   grid-template-columns: 1fr;
   width:80%;
+}
+
+/* CLIENT TESTIMONIAL ARROWS */
+.left-button{
+  grid-column: 1;
+  position: relative;
+  right: -27px;
+  top: 170px;
+  font-size: 25px;
+}
+
+.right-button{
+  font-size: 25px;
+  top: -200px;
+  position: relative;
+  grid-column: 7;
+  left: -27px;
 }
 
 
