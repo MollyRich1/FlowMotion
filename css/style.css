@@ -29,7 +29,7 @@ a.skip{
   /* background color */
   body{
     background-color: #769cfc;
-    color:#2e2e2e;
+    color:#000000;
     /* background-image: url("../images/background1.jpeg"); */
     background-image: url("../images/background2.jpeg");
     background-repeat: repeat;
@@ -152,6 +152,14 @@ a.skip{
   width: 85%;
   height: 100%;
   margin: auto;
+}
+
+.ref1_pic{
+  display:none;
+}
+
+.reformer2_pic{
+  display:none;
 }
 
 /* .section1{
@@ -576,6 +584,29 @@ body{
 
 /* home page */
 
+.reformer1_pic{
+  display:none
+}
+.ref1_pic{
+  display: grid;
+  grid-column: 1 / 4;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 80%;
+  height: 90%;
+  margin: auto;
+}
+
+.reformer2_pic{
+  display: grid;
+  grid-column: 4 / 7;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 90%;
+    height: 90%;
+  margin: auto;
+}
+
 /* CLIENT TESTIMONIAL CARDS */
 
 .c_test_label{
@@ -679,12 +710,13 @@ h2.main_title{
 }
 
 /* home page */
-.reformer1_pic {
-  grid-column: 1 / 7;
+.ref1_pic {
+  /* grid-column: 1 / 7; */
   border-radius: 5px;
   border: 2px solid rgb(0, 0, 0);
-  width: 55%;
-  height: 100%;
+  /* width: 95%; */
+
+  /* height: 100%; */
   margin: auto;
 }
 

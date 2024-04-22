@@ -12,7 +12,7 @@ function openNav() {
   // console.log("test1");
   window.addEventListener('resize', function(){
     showDivs(1);
-    console.log("test4");
+    // console.log("test4");
   });
 
   let slideIndex = 1;
