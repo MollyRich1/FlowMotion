@@ -39,7 +39,7 @@ function openNav() {
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";  
     }
-    
+    //giving errors??, style not defined?
     x[slideIndex-1].style.display = "grid"; 
   }
 
@@ -49,9 +49,10 @@ function openNav() {
    
     if (n > 3) {slideIndex = 1}
     if (n < 1) {slideIndex = 3}
-    for (i = 0; i < 3; i++) {
-      x[i].style.display = "none";  
-    }
+    //dont need, giving issues??
+    // for (i = 0; i < 3; i++) {
+    //   x[i].style.display = "none";  
+    // }
     
     if(slideIndex == 1){
     x[0].style.display = "grid"; 
