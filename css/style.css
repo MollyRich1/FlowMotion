@@ -798,3 +798,19 @@ font-size:25px;
 /* contact page */
 }
 
+
+
+@media (prefers-reduced-motion: reduce){
+  .fade-in {
+    animation: none;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
