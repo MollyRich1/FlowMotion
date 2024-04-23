@@ -139,7 +139,8 @@ a.skip{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 80%;
   height:80%;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #f4f4f4f0;
   margin: 20px auto;
   border-radius: 7px;
   border: 2px solid black;
@@ -265,7 +266,7 @@ a.skip{
   
   width: 80%;
   height: 80%;
-  background-color: whitesmoke;
+  background-color: #f4f4f4ef;
   margin: 20px auto;
   border-radius: 7px;
   border: 2px solid black;
@@ -288,6 +289,7 @@ a.skip{
 
 .service{
     width: 80%;
+    background-color: whitesmoke;
     margin: 0px auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -374,6 +376,7 @@ display:grid;
 	-webkit-animation: fadeEffect 12.5s linear infinite 0s;
 	/* color: #ee5a5a; */
   color: #000276;
+  color: #5b1e91;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -471,7 +474,8 @@ display:grid;
   display: grid;
   width: 65%;
   /* height: 50%; */
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #f4f4f4ea;
   margin: 20px auto;
   border-radius: 7px;
   border: 2px solid black;
