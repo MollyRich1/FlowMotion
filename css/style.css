@@ -354,22 +354,33 @@ display:grid;
 
 .fadeIn{
   text-align: center;
-	display: inline;
+	/* display: inline; */
   font-size: 35px;
-  display: grid;
-  justify-items: center;
+  display: flex;
+  /* justify-items: center; */
+  /* text-align:center; */
+  justify-content: center;
+  margin: 15px;
+  /* margin-bottom: 45px; */
 }
+
+.fadeInText{
+  margin: auto 0px;
+}
+
 .fadeIn span{
 	animation: fadeEffect 12.5s linear infinite 0s;
 	-ms-animation: fadeEffect 12.5s linear infinite 0s;
 	-webkit-animation: fadeEffect 12.5s linear infinite 0s;
-	color: #ee5a5a;
+	/* color: #ee5a5a; */
+  color: #000276;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
 }
 .fadeIn span:nth-child(2){
   color: #9c71ff;
+  color: #006CD4;
 	animation-delay: 2.5s;
 	-ms-animation-delay: 2.5s;
 	-webkit-animation-delay: 2.5s;
@@ -377,22 +388,27 @@ display:grid;
 .fadeIn span:nth-child(3){
   
   color: #4ba2ff;
+  color: #1dbcd8;
 	animation-delay: 5s;
 	-ms-animation-delay: 5s;
 	-webkit-animation-delay: 5s;
 }
 .fadeIn span:nth-child(4){
   color: #27a476;
+  color: #EC4E7D;
 	animation-delay: 7.5s;
 	-ms-animation-delay: 7.5s;
 	-webkit-animation-delay: 7.5s;
 }
 .fadeIn span:nth-child(5){
   color: #f38f24;
+  color: #8D4EB4;
 	animation-delay: 10s;
 	-ms-animation-delay: 10s;
 	-webkit-animation-delay: 10s;
 }
+
+
 
 /*FadeIn Animation*/
 @keyframes fadeEffect{
@@ -672,6 +688,10 @@ body{
 
 /* about page */
 
+.fadeIn{
+  font-size: 50px;
+  margin:25px;
+}
 .services_cont {
   padding: 2px 16px;
   grid-template-columns: 1fr 1fr;
@@ -760,7 +780,7 @@ h2.main_title{
 }
 
 .fadeIn {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .avail_services_h2 {

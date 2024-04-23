@@ -39,7 +39,7 @@ function openNav() {
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";  
     }
-    //giving errors??, style not defined?
+   
     x[slideIndex-1].style.display = "grid"; 
   }
 
